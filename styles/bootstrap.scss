@@ -1,0 +1,81 @@
+$theme-colors: (
+    "primary": #913BFF,
+    "danger": #FF7EA4,
+    "success": #43D1BE,
+    "dark": #252525,
+    "info": #57ADF5,
+);
+.bg-light-success{
+background-color: #43d1be65;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1210px;
+    }
+}
+@media (min-width: 1650px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+.mt-6{
+    margin-top: 6rem !important;
+}
+.mt-7{
+    margin-top: 7rem !important;
+}
+.mb-7{
+    margin-bottom: 7rem !important;
+}
+.mb-10{
+    margin-bottom: 10rem !important;
+}
+.mt-8{
+    margin-top: 8rem !important;
+}
+.mt-9{
+    margin-top: 9rem !important;
+}
+
+.col-md-6, .col-6, .col-md-5, .col-5, .col-md-3, .row{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.ml-short{
+    margin-left: -5px;
+}
+
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.py-7{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.px-7{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.btn{
+    border-radius: 0;
+}

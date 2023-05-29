@@ -1,0 +1,35 @@
+footer {
+    ul.footer-links {
+        list-style-type: none;
+    }
+    ul{
+        li{
+            a{
+                color: #fff;
+                text-decoration: none;
+                padding: 8px 0px;
+                display: inline-block;
+                font-family: 'Space Mono', monospace;
+
+            }
+        }
+    }
+}
+
+.spaced-text{
+    letter-spacing: 3px;
+}
+
+
+@media (min-width: 1300px) {
+    .custom-container {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1650px) {
+    .custom-container {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}

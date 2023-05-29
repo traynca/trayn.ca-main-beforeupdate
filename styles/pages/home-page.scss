@@ -1,0 +1,108 @@
+.hero {
+    position: relative;
+    .tech-stacks-block {
+        height: 420px;
+    }
+}
+.tech-stacks-container {
+    z-index: 5;
+    position: absolute;
+    top: 680px;
+    width: 96vw;
+    .tech-stacks-wrapper {
+        img {
+            // display: block;
+            margin: 0 12px;
+            height: 70px;
+            width: auto;
+            // filter: grayscale(100%);
+
+            &.net {
+                height: 40px;
+            }
+            &.light {
+                opacity: 1;
+            }
+        }
+    }
+}
+.text-link {
+    font-family: "Space Mono", monospace;
+    padding: 3px 0;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    &:hover {
+        cursor: pointer;
+    }
+    &.link-primary {
+        &:hover {
+            background-color: $color-primary;
+            color: #ffffff;
+        }
+    }
+    &.link-danger {
+        &:hover {
+            background-color: $color-danger;
+            color: #ffffff;
+        }
+    }
+    &.link-success {
+        &:hover {
+            background-color: $color-success;
+            color: #ffffff;
+        }
+    }
+    &.link-dark {
+        &:hover {
+            background-color: $color-dark;
+            color: #ffffff;
+        }
+    }
+    &.link-info {
+        &:hover {
+            background-color: $color-info;
+            color: #ffffff;
+        }
+    }
+}
+
+.hero {
+    .quick-link {
+        transition: all 0.1s ease-in-out;
+        &:hover {
+            background-color: #252525 !important;
+            cursor: pointer;
+        }
+    }
+}
+
+.our-purpose {
+    padding-top: 140px;
+    padding-bottom: 90px;
+
+    .side-image {
+        img {
+            margin-top: -250px;
+        }
+    }
+}
+
+.text-link {
+    border-bottom: 1px solid white;
+    p {
+        transition: all 0.2s ease;
+    }
+
+    &:hover {
+        p {
+            margin-right: 12px !important;
+        }
+    }
+}
+
+.global-reach{
+    background-image: url("/images/bg/circle-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}

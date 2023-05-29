@@ -1,0 +1,43 @@
+.portfolio-card {
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    background-color: #F1F1F1;
+
+    box-shadow: rgba(144, 59, 255, 0.112) 0px 54px 55px, rgba(144, 59, 255, 0.054) 0px -12px 30px, rgba(144, 59, 255, 0.08) 0px 4px 6px, rgba(144, 59, 255, 0.069) 0px 12px 13px, rgba(145, 59, 255, 0.09) 0px -3px 5px;    img{
+        border-radius: 8px 8px 0px 0px;
+
+    }
+    .info {
+        // padding: 12px 8px;
+    }
+}
+// rgb(145, 59, 255)
+
+.shadow-primary{
+    box-shadow: rgba(144, 59, 255, 0.112) 0px 54px 55px, rgba(144, 59, 255, 0.054) 0px -12px 30px, rgba(144, 59, 255, 0.08) 0px 4px 6px, rgba(144, 59, 255, 0.069) 0px 12px 13px, rgba(145, 59, 255, 0.09) 0px -3px 5px;    img{
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+}
+
+.shadow-success{
+    box-shadow: rgba(67, 209, 190, 0.112) 0px 54px 55px, rgba(67, 209, 190, 0.054) 0px -12px 30px, rgba(67, 209, 190, 0.08) 0px 4px 6px, rgba(67, 209, 190, 0.069) 0px 12px 13px, rgba(67, 209, 190, 0.09) 0px -3px 5px;    img{
+        border-radius: 8px 8px 0px 0px;
+
+    }
+}
+.shadow-info{
+    box-shadow: rgba(#57ADF5, 0.112) 0px 54px 55px, rgba(#57ADF5, 0.054) 0px -12px 30px, rgba(#57ADF5, 0.08) 0px 4px 6px, rgba(#57ADF5, 0.069) 0px 12px 13px, rgba(#57ADF5, 0.09) 0px -3px 5px;    img{
+        border-radius: 8px 8px 0px 0px;
+
+    }
+}
+.shadow-danger{
+    box-shadow: rgba(#FF7EA4, 0.112) 0px 54px 55px, rgba(#FF7EA4, 0.054) 0px -12px 30px, rgba(#FF7EA4, 0.08) 0px 4px 6px, rgba(#FF7EA4, 0.069) 0px 12px 13px, rgba(#FF7EA4, 0.09) 0px -3px 5px;    img{
+        border-radius: 8px 8px 0px 0px;
+
+    }
+}
+
+// rgb(67, 209, 190)

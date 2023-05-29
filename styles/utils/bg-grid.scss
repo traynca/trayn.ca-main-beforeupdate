@@ -1,0 +1,61 @@
+@import "./vars.scss";
+
+// $color-primary: #913BFF;
+// $color-danger: #FF7EA4;
+// $color-success: #43D1BE;
+// $color-dark: #252525;
+
+.grid-bg {
+    z-index: -1;
+    height: 100%;
+    .grid-bg-container {
+        position: absolute;
+        width: 99.5%;
+        height: 100%;
+
+    }
+    .line {
+        // width: 25%;
+        height: 100vh;
+        float: left;
+
+        &.one{
+            border-left: 1px solid rgba($color-white, .2);
+        }
+        &.two{
+            border-left: 1px solid rgba($color-success, .2);
+        }
+        &.three{
+            border-left: 1px solid rgba($color-primary, .2);
+        }
+        &.four{
+            border-left: 1px solid rgba($color-danger, .2);
+        }
+    }
+    
+}
+.grid-bg.relative.home{
+    .line{
+        height: 490vh;
+    }
+}
+.grid-bg.relative.service{
+    .line{
+        height: 520vh;
+    }
+}
+.grid-bg.relative.portfolio{
+    .line{
+        height: 320vh;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.br-one {
+}
+.br-five {
+    border-right: 1px solid rgba($color-primary, .2);
+}
