@@ -21,7 +21,7 @@ const FooterComponent = () => {
                             <p className='text-white mb-4'><FaPhoneAlt /> <span className="ps-3">+1 (236) 882-5700</span> </p>
                             <SocialButtonsContainer
                                 links={['https://www.facebook.com/', 'https://www.linkedin.com/', 'https://twitter.com']}
-                                buttonStyle={{ margin: '0px 10px', backgroundColor: '#fff', borderRadius: '50%' }}
+                                buttonStyle={{ margin: '10px', backgroundColor: '#fff', borderRadius: '50%' }}
                                 iconStyle={{ color: '#333' }}
                                 openNewTab={true}
                             />
